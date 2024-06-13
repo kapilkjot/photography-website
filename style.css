@@ -40,7 +40,7 @@ body {
     position: absolute;
     left: 16px;
     top: 16px;
-    
+    opacity: 0.9;
     z-index: 1;
 }
 
@@ -152,6 +152,14 @@ body {
 .btn_two:hover{
 opacity: 1;
 font-size: 1.5em;
+}
+.btn_one:hover{
+font-size: 2rem;
+opacity: 1;
+}
+.social_media i:hover{
+    font-size: 30px;
+    opacity: 1;
 }
 
 #check:checked ~ .btn_two {
